@@ -1,20 +1,20 @@
 {
     "database": {
-        "technology": "mssql",
-        "server": "localhost",
-        "port": 0,
-        "ssl": false,
-        "schema": "tallydb",
-        "username": "sa",
-        "password": "admin",
-        "loadmethod": "file"
+    "technology": "mssql",
+    "server": "DESKTOP-56K42I9",
+    "port": 1433,
+    "ssl": false,
+    "schema": "BharathChemical_FullSync",
+    "username": "sa",
+    "password": "Asoft@123",
+    "loadmethod": "insert"
     },
     "tally": {
         "definition": "tally-export-config.yaml",
         "server": "localhost",
         "port": 9000,
-        "fromdate": "20230401",
-        "todate": "20240331",
+        "fromdate" : "auto",
+        "todate" : "auto",
         "sync": "full",
         "company": ""
     }

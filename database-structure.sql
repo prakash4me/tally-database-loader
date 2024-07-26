@@ -186,7 +186,12 @@ create table trn_voucher
  is_invoice tinyint,
  is_accounting_voucher tinyint,
  is_inventory_voucher tinyint,
- is_order_voucher tinyint
+ is_order_voucher tinyint,
+ irn nvarchar(256) not null,
+ irn_qrcode nvarchar(256) not null,
+ rate nvarchar(256) not null,
+ amount nvarchar(256) not null,
+ ActualQty nvarchar(256) not null,
 );
 
 create table trn_accounting

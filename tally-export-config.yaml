@@ -444,6 +444,21 @@ transaction:
         - name: is_order_voucher
           field: if $$IsOrderVch:$VoucherTypeName then 1 else 0
           type: logical
+        - name: irn
+          field: IRN
+          type: text
+        - name: irn_qrcode
+          field: IRNQRCODE
+          type: text
+        - name: rate
+          field: RATE
+          type: text
+        - name: amount
+          field: Amount
+          type: text
+        - name: ActualQty
+          field: ACTUALQTY
+          type: text
     - name: trn_accounting
       collection: Voucher.AllLedgerEntries
       nature: Derived
